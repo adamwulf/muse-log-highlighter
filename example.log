@@ -1,0 +1,52 @@
+2021-01-29 05:03:31.664 [] INFO Logging.configure():60 logging configured = true
+2021-01-29 05:03:31.673 [] INFO AppDelegate.application():489 push_notification_registration error="Error Domain=NSCocoaErrorDomain Code=3010 \"remote notifications are not supported in the simulator\" UserInfo={NSLocalizedDescription=remote notifications are not supported in the simulator}" state=failed late=true
+2021-01-29 05:03:31.678 [] INFO AppDelegate.application():51 app_lifecycle state=did_finish_launching
+2021-01-29 05:03:31.680 [] INFO AppUpgradeManager.refreshOrStartBackgroundTask():110 background_task name=app_upgrade status=started
+2021-01-29 05:03:31.709 [] INFO AppUpgradeManager.loadPersistentStore():200 app_upgrade currentBuildNumber=3685 db_version=7/8 previousBuildNumber=3162
+2021-01-29 05:03:31.740 [] INFO AppUpgradeManager.loadPersistentStore():242 backup_database available=984258465792 destination=2021-01-29T05:03:31Z size=801599472
+2021-01-29 05:03:31.768 [] INFO Logging+UpgradeExtension.Logging():19 coredata_load container.size=801599472 fromBuild=3162 start=true stepCount=5 toBuild=3685 version=v7-rename-excerpted-page.mom
+2021-01-29 05:03:31.795 [com.apple.root.default-qos] INFO AppUpgradeManager.stepwiseMigrateContainer():355 db_upgrade migrations=5 start=true
+2021-01-29 05:03:31.820 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=76.0 id=TrashService start=true step=1 stepCount=5 version=v7-rename-excerpted-page.mom
+2021-01-29 05:03:31.824 [com.apple.root.default-qos] INFO TrashService+UpgradeExtension.upgradeStep():30 trash.upgrade container.size=801599472 start=true
+2021-01-29 05:03:32.394 [] INFO AppDelegate.applicationDidBecomeActive():461 app_lifecycle state=did_become_active
+2021-01-29 05:03:35.907 [] INFO AppDelegate.applicationWillResignActive():436 app_lifecycle state=will_resign_active
+2021-01-29 05:03:35.909 [] INFO SearchIndexer.refreshIndex():187 background_task name=search_index reason="database not yet initialized" status=skipped
+2021-01-29 05:03:36.470 [] INFO AppDelegate.applicationDidEnterBackground():443 app_lifecycle state=did_enter_background
+2021-01-29 05:04:01.913 [] INFO AppUpgradeManager.refreshOrStartBackgroundTask():117 background_task name=app_upgrade status=expiring
+2021-01-29 05:09:46.813 [] INFO Logging.configure():60 logging configured=true
+2021-01-29 05:09:46.943 [] INFO AppDelegate.application():51 app_lifecycle state=did_finish_launching
+2021-01-29 05:09:46.978 [] INFO AppUpgradeManager.refreshOrStartBackgroundTask():110 background_task name=app_upgrade status=started
+2021-01-29 05:09:47.160 [] INFO AppUpgradeManager.loadPersistentStore():200 app_upgrade currentBuildNumber=3685 db_version=7/8 previousBuildNumber=3162
+2021-01-29 05:09:47.186 [] INFO AppUpgradeManager.loadPersistentStore():242 backup_database available=983935315968 destination=2021-01-29T05:09:47Z size=719622144
+2021-01-29 05:09:47.210 [] INFO Logging+UpgradeExtension.Logging():19 coredata_load container.size=719622144 fromBuild=3162 start=true stepCount=5 toBuild=3685 version=v7-rename-excerpted-page.mom
+2021-01-29 05:09:47.235 [com.apple.root.default-qos] INFO AppUpgradeManager.stepwiseMigrateContainer():355 db_upgrade migrations=5 start=true
+2021-01-29 05:09:47.256 [] INFO AppDelegate.application():489 push_notification_registration error="Error Domain=NSCocoaErrorDomain Code=3010 \"remote notifications are not supported in the simulator\" UserInfo={NSLocalizedDescription=remote notifications are not supported in the simulator}" state=failed
+2021-01-29 05:09:47.261 [] INFO AppDelegate.applicationDidBecomeActive():461 app_lifecycle state=did_become_active
+2021-01-29 05:09:47.269 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=68.0 id=TrashService start=true step=1 stepCount=5 version=v7-rename-excerpted-page.mom
+2021-01-29 05:09:47.276 [com.apple.root.default-qos] INFO TrashService+UpgradeExtension.upgradeStep():30 trash.upgrade container.size=719622144 start=true
+2021-01-29 05:09:50.639 [com.apple.root.default-qos] INFO TrashService+UpgradeExtension.upgradeStep():42 trash.upgrade container.size=722575240 finished=true
+2021-01-29 05:09:50.668 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():50 coredata_migration duration.actual=3.432729505 duration.estimated=68.0 finished=true id=TrashService step=1 stepCount=5 version=v7-rename-excerpted-page.mom
+2021-01-29 05:09:50.695 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=20.0 id=v8-vector-ink-schema.mom start=true step=2 stepCount=5 version=v7-rename-excerpted-page.mom
+2021-01-29 05:10:01.886 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():50 coredata_migration duration.actual=11.216383555 duration.estimated=20.0 finished=true id=v8-vector-ink-schema.mom step=2 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:01.909 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=0.0 id=BuildNumberUpdate start=true step=3 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:01.931 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():50 coredata_migration duration.actual=0.043674654 duration.estimated=0.0 finished=true id=BuildNumberUpdate step=3 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:01.952 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=0.0 id=LegacyTasks start=true step=4 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:01.975 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():50 coredata_migration duration.actual=0.04320864 duration.estimated=0.0 finished=true id=LegacyTasks step=4 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:01.996 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():29 coredata_migration duration.estimated=0.0 id=SnapshotUpgradeTask start=true step=5 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:02.019 [com.apple.root.default-qos] INFO Logging+UpgradeExtension.Logging():50 coredata_migration duration.actual=0.0434204 duration.estimated=0.0 finished=true id=SnapshotUpgradeTask step=5 stepCount=5 version=v8-vector-ink-schema.mom
+2021-01-29 05:10:02.023 [com.apple.root.default-qos] INFO AppUpgradeManager.stepwiseMigrateContainer():400 db_upgrade finished=true
+2021-01-29 05:10:02.027 [] INFO AppUpgradeManager.automaticContainerLoad():325 db_load start=true
+2021-01-29 05:10:02.029 [] INFO AppUpgradeManager.automaticContainerLoad():339 db_load finished=true
+2021-01-29 05:10:02.855 [] INFO SearchIndexer.indexAllDocumentsIfSearchIndexVersionUpdated():111 background_task name=search_index status=started
+2021-01-29 05:10:02.859 [com.apple.spotlight.CoreSpotlight.throttle] INFO SearchIndexer.indexAllDocumentsIfSearchIndexVersionUpdated():123 successfully removed the outdated search index
+2021-01-29 05:10:02.862 [com.apple.spotlight.CoreSpotlight.throttle] INFO PersistenceService.performInBackgroundWithMainContextAsParent():452 moc.background location=before
+2021-01-29 05:10:02.867 [NSManagedObjectContext 0x60000220c000] INFO PersistenceService.performInBackgroundWithMainContextAsParent():463 moc.background location=pre-block
+2021-01-29 05:10:02.877 [] INFO Logging+UpgradeExtension.Logging():69 coredata_load container.size=655704064 duration=15.660305639 finished=true version=v8-vector-ink-schema.mom
+2021-01-29 05:10:02.903 [] INFO PersistenceService.performInBackgroundWithMainContextAsParent():452 moc.background location=before
+2021-01-29 05:10:02.907 [NSManagedObjectContext 0x60000220b190] INFO PersistenceService.performInBackgroundWithMainContextAsParent():463 moc.background location=pre-block
+2021-01-29 05:10:02.910 [NSManagedObjectContext 0x60000220b190] INFO PersistenceService.performInBackgroundWithMainContextAsParent():465 moc.background location=post-block
+2021-01-29 05:10:02.913 [] INFO AppDelegate.fullSetup():166 did_launch active_duration_since_last_crash=0.0 background_duration_since_last_crash=0.0 crashed_last_launch=false launches_since_last_crash=0 sessions_since_last_crash=0
+2021-01-29 05:10:03.428 [] INFO PersistenceService.performInBackgroundWithMainContextAsParent():452 moc.background location=before
+2021-01-29 05:10:03.430 [] INFO PersistenceService.performInBackgroundWithMainContextAsParent():452 moc.background location=before
+2021-01-29 05:10:03.432 [NSManagedObjectContext 0x6000022680d0] INFO PersistenceService.performInBackgroundWithMainContextAsParent():463 moc.background location=pre-block
+2021-01-29 05:10:03.435 [] INFO AppUpgradeManager.endBackgroundTask():99 background_task name=app_upgrade status=finished
