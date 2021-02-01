@@ -9,9 +9,9 @@
 		<key>Comment Pattern</key>
 		<string><![CDATA[
             (?x:
-                (?<=[\=])("(\\"|[^"\r]|\\\r)*") |
-                (?<=[\=])('(\\'|[^'\r]|\\\r)*') |
-                (?<=[\=])([a-zA-Z0-9_\.\-\:]*) |
+                (?<=[\=])("(\\"|[^"\r\n]|\\\r)*") |
+                (?<=[\=])('(\\'|[^'\r\n]|\\\r)*') |
+                (?<=[\=])([a-zA-Z_\.\-][a-zA-Z0-9_\.\-]*) |
                 (?s:\[.*?\])
             )
         ]]></string>
@@ -19,29 +19,6 @@
 		<string><![CDATA[
             (?x:
                 ([a-zA-Z_\.\-][a-zA-Z0-9_\.\-]*(?=[\=]))
-            )
-            ]]></string>
-		<key>Function Pattern</key>
-		<string><![CDATA[
-            (?x:
-                (?P<function>
-                    (?P<function_name>
-                        [a-zA-Z0-9_\.\+]+
-                    )
-                    \(\)
-                )
-            )
-            ]]></string>
-        <key>Function Pattern3</key>
-        <string><![CDATA[
-            (?x:
-                (?P<leadspace>^[\d\-]+\s[\d\:\.]+[^\s]\s\[[^\]]*\]\s[A-Z]+\s)
-                (?P<function>
-                    (?P<function_name>
-                        [a-zA-Z0-9_\.\+]+
-                    )
-                    (?s:.+?)$
-                )
             )
             ]]></string>
         <key>Close Block Comments</key>
